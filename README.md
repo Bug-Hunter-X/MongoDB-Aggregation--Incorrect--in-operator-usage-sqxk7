@@ -1,0 +1,2 @@
+# MongoDB Aggregation: Incorrect $in operator Usage
+This example demonstrates an issue with data type consistency when using the `$in` operator within a MongoDB aggregation pipeline.  Mixing data types (e.g., numbers and strings) in the array passed to `$in` can lead to unexpected or incorrect results. The solution shows how to maintain consistent data types for accurate filtering.
